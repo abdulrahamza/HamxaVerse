@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HamxaVerse Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- 1. Sticky Header -->
+    <header id="header">
+        <div class="container header-content">
+            <div class="brand">HamxaVerse Store</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 2. Home Section -->
+    <section id="home">
+        <div class="container home-content">
+            <h1>Welcome to HamxaVerse</h1>
+            <p>Experience the future of premium shopping. We bring you exclusively curated luxury items that blend style, innovation, and elegance. Redefine your lifestyle with our top-tier collection.</p>
+            <a href="#products" class="btn btn-primary">Explore Collection</a>
+        </div>
+    </section>
+
+    <!-- 3. Products Section -->
+    <section id="products">
+        <div class="container">
+            <h2 class="section-title">Our Exclusive Products</h2>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="card-image">
+                        <img src="./47f83f67f63f85f216d9abb27088fa49.jpg" alt="Luxury Watch">
+                    </div>
+                    <div class="card-info">
+                        <h3>Gold Chronograph</h3>
+                        <p class="price">$1,400.00</p>
+                        <a href="#contact" class="btn btn-secondary">Shop Now</a>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="card-image">
+                        <img src="./44d05f74f80537b59e5a06f32614ebea.jpg" alt="Premium Sneakers">
+                    </div>
+                    <div class="card-info">
+                        <h3>Cyber Runners</h3>
+                        <p class="price">$150.00</p>
+                        <a href="#contact" class="btn btn-secondary">Shop Now</a>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="card-image">
+                        <img src="./8c57255de445785653d6a69310829923.jpg" alt="Wireless Headphones">
+                    </div>
+                    <div class="card-info">
+                        <h3>Sonic Pro X</h3>
+                        <p class="price">$99.00</p>
+                        <a href="#contact" class="btn btn-secondary">Shop Now</a>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="card-image">
+                        <img src="./e87d41182a43fac195ca46920a9e97db.jpg" alt="Smart Glasses">
+                    </div>
+                    <div class="card-info">
+                        <h3>Vision Air</h3>
+                        <p class="price">$149.00</p>
+                        <a href="#contact" class="btn btn-secondary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Contact Section -->
+    <section id="contact">
+        <div class="container contact-container">
+            <h2 class="section-title">Place Your Order</h2>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Customer Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+1 234 567 890" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Product Details / Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="I would like to order the Gold Chronograph..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Submit Order</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 5. Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">HamxaVerse Store</div>
+            <div class="footer-links">
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
+            </div>
+            <p class="copyright">&copy; 2025 HamxaVerse Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
